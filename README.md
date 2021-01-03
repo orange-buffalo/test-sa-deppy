@@ -33,3 +33,4 @@ To run the load tests, follow these steps:
 `jdbc:h2:<path-to-database-file>`.
 1. Start JMeter and open `load-tests/jmeter-load-tests.jmx` project.
 1. Launch the tests in JMeter.
+test
