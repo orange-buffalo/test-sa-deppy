@@ -18,7 +18,7 @@
   "dependencies": {
     "@drewbot/sass-flexbox-grid": "^2.0.7",
     "@vue/composition-api": "^0.6.7",
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "cldrjs": "^0.5.4",
     "copy-to-clipboard": "^3.3.1",
     "core-js": "^3.6.5",
