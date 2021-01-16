@@ -1,3 +1,7 @@
+object Versions {
+    const val jooq = "3.13.4"
+}
+
 repositories {
     jcenter()
 }
@@ -10,12 +14,10 @@ kotlinDslPluginOptions {
     experimentalWarning.set(false)
 }
 
-val jooqVersion = "3.13.4"
-
 dependencies {
-    implementation("org.jooq:jooq-meta-extensions:$jooqVersion") {
+    implementation("org.jooq:jooq-meta-extensions:${Versions.jooq}") {
         // causes conflicts with spring-boot plugin
         exclude(group = "org.springframework")
     }
-    implementation("org.jooq:jooq-codegen:$jooqVersion")
+    implementation("org.jooq:jooq-codegen:${Versions.jooq}")
 }
